@@ -5,7 +5,7 @@
 # Requires Version (handled by eris-cli).
 
 [service]
-image          = "quay.io/eris/erisdb:version"
+image          = "chainlex/eris-db:version"
 data_container = true
 ports          = [ "1337", "46656", "46657" ]
 entry_point    = "erisdb-wrapper"
